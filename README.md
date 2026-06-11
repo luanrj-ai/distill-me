@@ -2,12 +2,12 @@
 
 把你自己蒸馏成一份"数字分身档案"。全程在**你自己的电脑**上进行,原始聊天记录**不会外传**,只导出一份你逐条过目、删改后的 JSON 档案。
 
-## 安装(10 秒)
+## 安装(一条命令)
 
-把 `distill-me` 这个文件夹放进你电脑的 `~/.claude/skills/` 里:
+前提:装了 [Claude Code](https://claude.com/claude-code)。然后:
 
 ```bash
-mkdir -p ~/.claude/skills && cp -r distill-me ~/.claude/skills/
+git clone https://github.com/luanrj-ai/distill-me.git ~/.claude/skills/distill-me
 ```
 
 ## 使用(分两天,共约 80 分钟)
